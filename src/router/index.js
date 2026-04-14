@@ -6,7 +6,8 @@ import CourseVue from '@/views/Course.vue'
 
 import RoadVue from '@/views/Road.vue'
 import home from '@/views/home.vue'
-import cesiumMapVue from '@/views/cesiumMap.vue'
+
+import ShortPathVue from '@/views/ShortPath.vue'
 //定义路由关系
 const routes = [
     { path: '/login', component: LoginVue },
@@ -17,7 +18,8 @@ const routes = [
         //子路由
         children: [
             { path: '/course', component: CourseVue },
-             { path: '/road', component: RoadVue }
+             { path: '/road', component: RoadVue },
+             {path:'/path',component:ShortPathVue}
             
         ]
     }

@@ -222,7 +222,7 @@ const classroomquery = async () => {
 }
 //滑块切换禁用选择器
 
-const DisableSelect = (switchBool) => {
+const DisableSelect = (switchBool: any) => {
   //清空原有查询和重置表单
   tableData.value = [];
   reset()

@@ -52,6 +52,7 @@ import { Reading, School, MapLocation, Monitor, BellFilled } from '@element-plus
 const router = useRouter()
 const activeIndex = ref(router.currentRoute.value.path)
 
+
 // 菜单点击事件
 const handleSelect = (index) => {
   router.push(index)
